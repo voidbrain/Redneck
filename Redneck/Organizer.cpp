@@ -4,14 +4,10 @@
 
 WiFiEspClient WiFiServiceClient;
 
-const char* ssid         = "Vodafone-27001017";
-//const char* ssid       = "Klekoo Telecom";
-//const char* ssid       = "Linkem2.4GHz_75FD34";
-const char* password     = "simplepwd";
-//const char* password   = "Klekoo-44-cesare";
-//const char* password   = "kavexoqb";
+const char* ssid         = "ssid";
+const char* password     = "password";
 
-char webServerURI[] = "www.voidbrain.net";
+char webServerURI[] = "www.test.com";
 char url[] = "/temp/grover/ajax/moduli/api/redneck/endpoint";
 String params = "";
 byte status = WL_IDLE_STATUS;
